@@ -1,0 +1,114 @@
+
+*{
+    margin:0;
+}
+body{
+background: linear-gradient(45deg, rgb(123, 0, 255),rgb(33, 93, 145), rgb(86, 178, 186));
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-left: 33%;
+    
+}
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 5%;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.title{
+  margin-left: 11%;
+  font-family: "varela round";
+}
+.todo-box{
+    font-family:  Arial, sans-serif;
+    margin-top: 5%;
+    background-color: rgb(232, 232, 232);
+    border-radius: 20px;
+    margin-left: 2%;
+    padding: 2%;
+    overflow-y: auto;
+    height:50vh;
+    width: 20vw;
+    display: flex;
+    background-color: rgb(199, 245, 251);
+    flex-direction: column;
+    justify-content: baseline;
+    justify-items: center;
+    background-image: url(https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg);
+    background-position: center;
+    background-size: cover  ;
+     animation: Blurshadow 10s infinite;
+}
+@keyframes Blurshadow {
+  80% {box-shadow: 0 0 50px rgb(67, 153, 239);}
+}
+
+.todo-box input{
+    background-color: #555;
+    border-radius:15px;
+    color:rgb(255, 255, 255);
+    border:none;
+    outline: none;
+    padding:4%;
+    width: 90%;
+    
+}
+input::placeholder{
+  color: white;
+  font-family: "varela round";
+}
+ul{
+    list-style-type: none;
+    height: 200px;
+    width: 200px;
+    margin-left: -10%;
+}
+li{
+      background:rgb(184, 100, 100);
+      color:white;
+      height:5%;
+      border-radius:20px;
+      margin:5% 0;
+      padding:5%;
+      width: 130%;
+      padding-bottom:9%;
+      align-items: center;
+      position: relative;
+    }
+    .fa-check,.fa-trash
+    {
+      position:absolute;
+      cursor:pointer;
+    }
+    .fa-check{
+      right:20px;
+      bottom: 0px;
+      color:rgb(4, 79, 4);
+      
+    }
+    .fa-trash{
+      right:25px;
+      bottom: 7px; 
+      color:rgb(18, 12, 13);
+    }
+button{
+    height: 5vh;
+}
