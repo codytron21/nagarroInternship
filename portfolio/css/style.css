@@ -1,0 +1,91 @@
+* {
+        margin: 0;
+      }
+      .header{
+        width: 100vw;
+        background-color: rgb(42, 35, 35);
+        height: 55vh;
+        position: relative;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/445/975/670/web-development-minimalism-wallpaper-preview.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        /* object-fit: cover; */
+        background-position: center;
+      }
+      .profile-img {
+        background-color: rgb(15, 12, 12);
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        bottom: -25%;
+        left: 42%;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid rgb(237, 237, 229);
+      }
+      .name{
+        position: absolute;
+        color: whitesmoke;
+        left: 37%; 
+        top:35%;
+        font-size: 50px;
+        /* padding: 5px; */
+      
+      }
+      .social-icons{
+        position: absolute;
+        position: absolute;
+        color: whitesmoke;
+        left:60%;   
+        top:80%;
+        border: 5px solid rgb(227, 222, 222);
+        /* padding: 5px; */
+      }
+      /* styling ul for social-icons */
+.social-icons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+ 
+}
+
+.social-icons li,.nav-bar li {
+  float: left;
+ 
+}
+
+.social-icons a,.nav-bar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.intro{
+   margin: 8% 24%;
+   padding: 2% 1%;
+   width: 50%;
+   border: 2px solid black;
+   text-align: center;
+   box-shadow: 3px 3px 3px grey;
+   overflow: auto;
+}
+.nav-bar{
+    width: 30%;
+    margin-left: 36%;
+    padding: 1% .5%;
+    font-size: larger;
+    
+}
+.nav-bar ul{
+   color: whitesmoke;
+   display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+    

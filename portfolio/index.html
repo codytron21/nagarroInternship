@@ -3,38 +3,59 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
-    <meta name="description" content="" />
+    <title>Portfolio web page</title>
+    <meta
+      name="description"
+      content="This is a Portfolio web page of rohan kumar"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
-    <style>
-      * {
-        margin: 0;
-      }
-      .parent-div {
-        width: 100vw;
-        background-color: red;
-        height: 55vh;
-        position: relative;
-      }
-      .child-div {
-        background-color: red;
-        width: 200px;
-        height: 200px;
-        position: absolute;
-        bottom: -25%;
-        left: 42%;
-        border-radius: 50%;
-        border: 5px solid yellow;
-      }
-    </style>
+    <script
+      src="https://kit.fontawesome.com/d6bb7ec6bc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="parent-div">
-      <img
-        class="child-div"
-        src="https://cdn.ndtv.com/tech/images/gadgets/pikachu_hi_pokemon.jpg"
-      />
-    </div>
+    <header>
+      <div class="header">
+        <center><h1 class="name">Rohan Kumar</h1></center>
+        <nav class="nav-bar">
+          <ul>
+            <a href="#"> <li>Home</li></a>
+            <a href="#"> <li>About</li></a>
+            <a href="#"><li>Projects</li></a>
+            <a href="#"><li>Education</li></a>
+            <a href="#"><li>Contact</li></a>
+          </ul>
+        </nav>
+        <ul class="social-icons">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/rohan-kumar-b1045a163/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/codytron21" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+
+        <img class="profile-img" src="assets/1.jpeg" />
+      </div>
+    </header>
+    <main class="content">
+      <div class="intro">
+        <p>
+          Hi, I'm a final year Computer Science undergraduate. <br />I'm a Web
+          developer and C++ proficient coder.<br />I have keen interest in web
+          development, or i would rather say Problem Solving.<br />
+        </p>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
   </body>
 </html>
