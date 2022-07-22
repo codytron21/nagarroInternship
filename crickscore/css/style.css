@@ -1,0 +1,61 @@
+/* *{
+    
+} */
+
+.content{
+    
+}
+img{
+
+    width:50px;
+    border-radius:50%;
+}
+.title{
+    font-family: 'Anton', sans-serif;
+font-family: 'Varela Round', sans-serif;
+margin-bottom: 50px;
+}
+.card-title{
+    border-radius: 10px;
+    padding: 5px;
+}
+/* .team-logo{
+
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+} */
+.card{
+    
+    /* border: 3px solid red; */
+    overflow-y: hidden;
+}
+.card-body{
+    max-height: 400px;
+}
+
+.container{
+    flex:33%;
+    margin: 1%;
+    width: 200px;
+    height: 300px;
+    box-shadow: 3px 3px 5px black;
+}
+#content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.load-logo{
+    margin-top: 50vh;
+    margin-left: 45vw;
+  animation: mylogo 2s infinite;
+}
+@keyframes mylogo {
+ from {
+    transform: rotate(0deg) scale(2);
+    
+  }
+  to {
+    transform: rotate(360deg) scale(3);
+  }
+}
